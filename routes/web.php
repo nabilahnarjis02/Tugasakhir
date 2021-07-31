@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\ProdukController;
+use App\Http\Controllers\SupplierController;
+use App\Http\Controllers\TransaksiController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,10 +16,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-Route::resource('produks', ProdukController::class);
-    
-    
-    
-
-
+Route::resources([
+    'produks' => ProdukController::class,
+    'suppliers' => SupplierController::class,
+    'transaksis' => TransaksiController::class,
+]);

@@ -23,7 +23,7 @@
             <a class="nav-link active" href="/#">HOME <span class="sr-only">(current)</span></a>
             <a class="nav-link" href="/produks">Produk</a>
             <a class="nav-link" href="/suppliers">Supplier</a>
-            <!-- <a class="nav-link" href="/posts">Stock</a> -->
+            <a class="nav-link" href="/transaksis">Transaksi</a>
             </div>
         </div>
         </nav>
